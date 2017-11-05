@@ -8,13 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		1E6C4DD01FAEA7C400A27DBD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E6C4DCF1FAEA7C400A27DBD /* AppDelegate.m */; };
-		1E6C4DD31FAEA7C400A27DBD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E6C4DD21FAEA7C400A27DBD /* ViewController.m */; };
-		1E6C4DD61FAEA7C400A27DBD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E6C4DD41FAEA7C400A27DBD /* Main.storyboard */; };
 		1E6C4DD81FAEA7C400A27DBD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E6C4DD71FAEA7C400A27DBD /* Assets.xcassets */; };
 		1E6C4DDB1FAEA7C400A27DBD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E6C4DD91FAEA7C400A27DBD /* LaunchScreen.storyboard */; };
 		1E6C4DDE1FAEA7C400A27DBD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E6C4DDD1FAEA7C400A27DBD /* main.m */; };
 		1E6C4DE81FAEA7C400A27DBD /* US_State_infoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E6C4DE71FAEA7C400A27DBD /* US_State_infoTests.m */; };
 		1E6C4DF31FAEA7C400A27DBD /* US_State_infoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E6C4DF21FAEA7C400A27DBD /* US_State_infoUITests.m */; };
+		1E6C4E0A1FAEAF0D00A27DBD /* Flags in Resources */ = {isa = PBXBuildFile; fileRef = 1E6C4E091FAEAF0D00A27DBD /* Flags */; };
+		1E6C4E0C1FAEB41200A27DBD /* birds in Resources */ = {isa = PBXBuildFile; fileRef = 1E6C4E0B1FAEB41200A27DBD /* birds */; };
+		1E6C4E1B1FAEC54B00A27DBD /* States.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E6C4E171FAEC54900A27DBD /* States.m */; };
+		1E6C4E1C1FAEC54B00A27DBD /* StatesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E6C4E181FAEC54A00A27DBD /* StatesTableViewController.m */; };
+		1E6C4E1D1FAEC54B00A27DBD /* StateDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E6C4E191FAEC54A00A27DBD /* StateDetailViewController.m */; };
+		1E6C4E1E1FAEC54B00A27DBD /* StateTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E6C4E1A1FAEC54B00A27DBD /* StateTableViewCell.m */; };
+		1E6C4E211FAEC57100A27DBD /* mycass.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E6C4E201FAEC57100A27DBD /* mycass.m */; };
+		1E6C4E251FAEC67000A27DBD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E6C4E241FAEC66F00A27DBD /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,9 +44,6 @@
 		1E6C4DCB1FAEA7C300A27DBD /* US_State_info.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = US_State_info.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E6C4DCE1FAEA7C400A27DBD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1E6C4DCF1FAEA7C400A27DBD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		1E6C4DD11FAEA7C400A27DBD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		1E6C4DD21FAEA7C400A27DBD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		1E6C4DD51FAEA7C400A27DBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1E6C4DD71FAEA7C400A27DBD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1E6C4DDA1FAEA7C400A27DBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1E6C4DDC1FAEA7C400A27DBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +54,19 @@
 		1E6C4DEE1FAEA7C400A27DBD /* US_State_infoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = US_State_infoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E6C4DF21FAEA7C400A27DBD /* US_State_infoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = US_State_infoUITests.m; sourceTree = "<group>"; };
 		1E6C4DF41FAEA7C400A27DBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E6C4E091FAEAF0D00A27DBD /* Flags */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Flags; sourceTree = "<group>"; };
+		1E6C4E0B1FAEB41200A27DBD /* birds */ = {isa = PBXFileReference; lastKnownFileType = folder; path = birds; sourceTree = "<group>"; };
+		1E6C4E131FAEC53F00A27DBD /* States.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = States.h; sourceTree = "<group>"; };
+		1E6C4E141FAEC54200A27DBD /* StatesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatesTableViewController.h; sourceTree = "<group>"; };
+		1E6C4E151FAEC54400A27DBD /* StateTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StateTableViewCell.h; sourceTree = "<group>"; };
+		1E6C4E161FAEC54700A27DBD /* StateDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StateDetailViewController.h; sourceTree = "<group>"; };
+		1E6C4E171FAEC54900A27DBD /* States.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = States.m; sourceTree = "<group>"; };
+		1E6C4E181FAEC54A00A27DBD /* StatesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatesTableViewController.m; sourceTree = "<group>"; };
+		1E6C4E191FAEC54A00A27DBD /* StateDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StateDetailViewController.m; sourceTree = "<group>"; };
+		1E6C4E1A1FAEC54B00A27DBD /* StateTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StateTableViewCell.m; sourceTree = "<group>"; };
+		1E6C4E1F1FAEC57100A27DBD /* mycass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mycass.h; sourceTree = "<group>"; };
+		1E6C4E201FAEC57100A27DBD /* mycass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mycass.m; sourceTree = "<group>"; };
+		1E6C4E241FAEC66F00A27DBD /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,13 +119,23 @@
 			children = (
 				1E6C4DCE1FAEA7C400A27DBD /* AppDelegate.h */,
 				1E6C4DCF1FAEA7C400A27DBD /* AppDelegate.m */,
-				1E6C4DD11FAEA7C400A27DBD /* ViewController.h */,
-				1E6C4DD21FAEA7C400A27DBD /* ViewController.m */,
-				1E6C4DD41FAEA7C400A27DBD /* Main.storyboard */,
+				1E6C4E161FAEC54700A27DBD /* StateDetailViewController.h */,
+				1E6C4E191FAEC54A00A27DBD /* StateDetailViewController.m */,
+				1E6C4E131FAEC53F00A27DBD /* States.h */,
+				1E6C4E171FAEC54900A27DBD /* States.m */,
+				1E6C4E141FAEC54200A27DBD /* StatesTableViewController.h */,
+				1E6C4E181FAEC54A00A27DBD /* StatesTableViewController.m */,
+				1E6C4E151FAEC54400A27DBD /* StateTableViewCell.h */,
+				1E6C4E1A1FAEC54B00A27DBD /* StateTableViewCell.m */,
+				1E6C4E241FAEC66F00A27DBD /* Main.storyboard */,
 				1E6C4DD71FAEA7C400A27DBD /* Assets.xcassets */,
 				1E6C4DD91FAEA7C400A27DBD /* LaunchScreen.storyboard */,
 				1E6C4DDC1FAEA7C400A27DBD /* Info.plist */,
 				1E6C4DDD1FAEA7C400A27DBD /* main.m */,
+				1E6C4E0B1FAEB41200A27DBD /* birds */,
+				1E6C4E091FAEAF0D00A27DBD /* Flags */,
+				1E6C4E1F1FAEC57100A27DBD /* mycass.h */,
+				1E6C4E201FAEC57100A27DBD /* mycass.m */,
 			);
 			path = US_State_info;
 			sourceTree = "<group>";
@@ -239,8 +265,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				1E6C4DDB1FAEA7C400A27DBD /* LaunchScreen.storyboard in Resources */,
+				1E6C4E251FAEC67000A27DBD /* Main.storyboard in Resources */,
 				1E6C4DD81FAEA7C400A27DBD /* Assets.xcassets in Resources */,
-				1E6C4DD61FAEA7C400A27DBD /* Main.storyboard in Resources */,
+				1E6C4E0C1FAEB41200A27DBD /* birds in Resources */,
+				1E6C4E0A1FAEAF0D00A27DBD /* Flags in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,7 +293,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1E6C4DD31FAEA7C400A27DBD /* ViewController.m in Sources */,
+				1E6C4E1D1FAEC54B00A27DBD /* StateDetailViewController.m in Sources */,
+				1E6C4E1E1FAEC54B00A27DBD /* StateTableViewCell.m in Sources */,
+				1E6C4E1B1FAEC54B00A27DBD /* States.m in Sources */,
+				1E6C4E211FAEC57100A27DBD /* mycass.m in Sources */,
+				1E6C4E1C1FAEC54B00A27DBD /* StatesTableViewController.m in Sources */,
 				1E6C4DDE1FAEA7C400A27DBD /* main.m in Sources */,
 				1E6C4DD01FAEA7C400A27DBD /* AppDelegate.m in Sources */,
 			);
@@ -303,14 +335,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		1E6C4DD41FAEA7C400A27DBD /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1E6C4DD51FAEA7C400A27DBD /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		1E6C4DD91FAEA7C400A27DBD /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
