@@ -19,7 +19,7 @@
 		1E6C4E1C1FAEC54B00A27DBD /* StatesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E6C4E181FAEC54A00A27DBD /* StatesTableViewController.m */; };
 		1E6C4E1D1FAEC54B00A27DBD /* StateDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E6C4E191FAEC54A00A27DBD /* StateDetailViewController.m */; };
 		1E6C4E1E1FAEC54B00A27DBD /* StateTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E6C4E1A1FAEC54B00A27DBD /* StateTableViewCell.m */; };
-		1E6C4E211FAEC57100A27DBD /* mycass.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E6C4E201FAEC57100A27DBD /* mycass.m */; };
+        1E6C4E211FAEC57100A27DBD /* mycass.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E6C4E201FAEC57100A27DBD /* mycass.m */; };
 		1E6C4E251FAEC67000A27DBD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E6C4E241FAEC66F00A27DBD /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -64,8 +64,8 @@
 		1E6C4E181FAEC54A00A27DBD /* StatesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatesTableViewController.m; sourceTree = "<group>"; };
 		1E6C4E191FAEC54A00A27DBD /* StateDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StateDetailViewController.m; sourceTree = "<group>"; };
 		1E6C4E1A1FAEC54B00A27DBD /* StateTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StateTableViewCell.m; sourceTree = "<group>"; };
-		1E6C4E1F1FAEC57100A27DBD /* mycass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mycass.h; sourceTree = "<group>"; };
-		1E6C4E201FAEC57100A27DBD /* mycass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mycass.m; sourceTree = "<group>"; };
+        1E6C4E1F1FAEC57100A27DBD /* mycass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mycass.h; sourceTree = "<group>"; };
+        1E6C4E201FAEC57100A27DBD /* mycass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mycass.m; sourceTree = "<group>"; };
 		1E6C4E241FAEC66F00A27DBD /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -134,8 +134,8 @@
 				1E6C4DDD1FAEA7C400A27DBD /* main.m */,
 				1E6C4E0B1FAEB41200A27DBD /* birds */,
 				1E6C4E091FAEAF0D00A27DBD /* Flags */,
-				1E6C4E1F1FAEC57100A27DBD /* mycass.h */,
-				1E6C4E201FAEC57100A27DBD /* mycass.m */,
+                1E6C4E1F1FAEC57100A27DBD /* mycass.h */,
+                1E6C4E201FAEC57100A27DBD /* mycass.m */,
 			);
 			path = US_State_info;
 			sourceTree = "<group>";
@@ -296,7 +296,7 @@
 				1E6C4E1D1FAEC54B00A27DBD /* StateDetailViewController.m in Sources */,
 				1E6C4E1E1FAEC54B00A27DBD /* StateTableViewCell.m in Sources */,
 				1E6C4E1B1FAEC54B00A27DBD /* States.m in Sources */,
-				1E6C4E211FAEC57100A27DBD /* mycass.m in Sources */,
+                1E6C4E211FAEC57100A27DBD /* mycass.m in Sources */,
 				1E6C4E1C1FAEC54B00A27DBD /* StatesTableViewController.m in Sources */,
 				1E6C4DDE1FAEA7C400A27DBD /* main.m in Sources */,
 				1E6C4DD01FAEA7C400A27DBD /* AppDelegate.m in Sources */,
